@@ -38,11 +38,6 @@ class Fruit {
 
       return new Fruit(newFruit);
     }
-
-    console.log(newFruit);
-    fruits.push(newFruit);
-
-    return new Fruit(newFruit);
   }
 
   update(data) {
